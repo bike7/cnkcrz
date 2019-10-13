@@ -20,7 +20,6 @@ public class testCurrencyRates {
     public void getCurrencyRates() {
         start();
         System.out.println(readCurrencyRate("chf/pln"));
-        System.out.println(readCurrencyRate("eur/pln"));
         System.out.println(readCurrencyRate("eur/chf"));
         System.out.println(readCurrencyRate("eur/usd"));
         stop();
